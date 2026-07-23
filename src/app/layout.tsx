@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     siteName: "Advocate Divakara S.V.",
     images: [
       { 
-        url: "https://www.advocate-divakara-shivamogga.in/images/img_sq.jpg", 
-        width: 400, 
-        height: 400,
-        alt: "Advocate Divakara S.V. Logo"
+        url: "https://www.advocate-divakara-shivamogga.in/images/og-share-card.png", 
+        width: 1200, 
+        height: 630,
+        alt: "Advocate Divakara S.V. Legal Consultant"
       }
     ],
   },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Advocate Divakara S.V. | Legal Consultant Shivamogga",
     description: "Senior Advocate in Shivamogga. Expert in Legal Scrutiny Reports, Property Verification, and Home Loan Legal Opinions.",
-    images: ["https://www.advocate-divakara-shivamogga.in/images/img_sq.jpg"],
+    images: ["https://www.advocate-divakara-shivamogga.in/images/og-share-card.png"],
   },
 };
 

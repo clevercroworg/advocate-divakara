@@ -39,7 +39,7 @@ export default function TitleVerificationPage() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-legal-accent flex-shrink-0 mt-0.5" />
-                <span><strong>Original Variations:</strong> Verification of changes in survey numbers, subdivisions, phodi, and re-survey records.</span>
+                <span><strong>Original Verifications:</strong> Verification of changes in survey numbers, subdivisions, phodi, and re-survey records.</span>
               </li>
             </ul>
 

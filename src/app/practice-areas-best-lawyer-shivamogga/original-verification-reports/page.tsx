@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FileText, ArrowLeft, CheckCircle } from "lucide-react";
 
-export default function OriginalVariationReportsPage() {
+export default function OriginalVerificationReportsPage() {
   return (
     <div className="bg-legal-bg min-h-screen py-16 md:py-20 lg:py-32">
       <div className="max-w-4xl mx-auto px-5 md:px-6 lg:px-8">
@@ -14,7 +14,7 @@ export default function OriginalVariationReportsPage() {
             <div className="bg-legal-bg p-4 rounded-full">
               <FileText className="w-10 h-10 text-legal-accent" />
             </div>
-            <h1 className="text-section text-legal-dark fade-up text-legal-dark">Original Variation Reports</h1>
+            <h1 className="text-section text-legal-dark fade-up text-legal-dark">Original Verification Reports</h1>
           </div>
 
           <div className="prose prose-lg text-gray-700 max-w-none">
@@ -24,7 +24,7 @@ export default function OriginalVariationReportsPage() {
 
             <h2 className="text-2xl font-bold font-cormorant text-legal-dark mb-4 mt-8">Ensuring Accurate Land Records</h2>
             <p className="mb-4">
-              Over time, land records undergo numerous changes due to subdivisions, family partitions, re-surveys, and government acquisitions. Our Original Variation Reports meticulously track these changes to ensure that the current property details accurately reflect the historical records without any illegal discrepancies.
+              Over time, land records undergo numerous changes due to subdivisions, family partitions, re-surveys, and government acquisitions. Our Original Verification Reports meticulously track these changes to ensure that the current property details accurately reflect the historical records without any illegal discrepancies.
             </p>
 
             <h2 className="text-2xl font-bold font-cormorant text-legal-dark mb-4 mt-8">What We Verify:</h2>
@@ -44,7 +44,7 @@ export default function OriginalVariationReportsPage() {
             </ul>
 
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-100 mt-10">
-              <h3 className="text-xl font-bold text-legal-dark mb-2">Need a Variation Report?</h3>
+              <h3 className="text-xl font-bold text-legal-dark mb-2">Need a Verification Report?</h3>
               <p className="mb-4 text-sm text-gray-600">Ensure your land records are legally sound and updated.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
                 Contact Advocate Divakara S.V.

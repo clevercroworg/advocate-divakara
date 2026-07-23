@@ -17,7 +17,7 @@ export const seoKeywords = [
   "mortgage-legal-assistance-shivamogga",
   "bank-legal-opinion-shivamogga",
   "layout-document-scrutiny-shivamogga",
-  "original-variation-report-shivamogga",
+  "original-verification-report-shivamogga",
   "bank-panel-advocate-shivamogga",
   "legal-services-for-banks-shivamogga",
   "legal-services-for-nbfcs-shivamogga",

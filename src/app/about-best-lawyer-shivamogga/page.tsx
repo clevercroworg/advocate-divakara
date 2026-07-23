@@ -60,7 +60,7 @@ export default function About() {
               Divakara S.V. is a senior Advocate and Legal Consultant based in Shivamogga, Karnataka, with over <strong className="text-legal-dark">25 years of extensive experience</strong> in property law, home loan legal opinions, and document verification.
             </p>
             <p className="mb-6 leading-relaxed">
-              He provides expert Legal Scrutiny Reports (LSR), title verification, document vetting, and original variation reports for banks, NBFCs, real estate clients, and individual borrowers. His meticulous approach ensures that all workflows are highly bank-compliant and meet the strict legal standards required for secured lending and property acquisition.
+              He provides expert Legal Scrutiny Reports (LSR), title verification, document vetting, and original verification reports for banks, NBFCs, real estate clients, and individual borrowers. His meticulous approach ensures that all workflows are highly bank-compliant and meet the strict legal standards required for secured lending and property acquisition.
             </p>
             <p className="mb-10 leading-relaxed">
               His expertise lies in the rigorous examination of revenue records, unbroken chain of ownership, encumbrance certificates, conversion orders, and statutory approvals. In addition to property and banking legal services, he handles civil and criminal matters including property disputes, partition suits, injunctions, and recovery proceedings before Civil Courts in Shivamogga.

@@ -39,10 +39,10 @@ export default function PracticeAreas() {
       link: "/property-document-verification-shivamogga"
     },
     {
-      title: "Original Variation Reports",
+      title: "Original Verification Reports",
       description: "Verification of changes in survey numbers, ownership history, subdivisions, phodi, and re-survey records by cross-checking original land documents.",
       icon: <FileText className="w-8 h-8 text-[#D47C42]" />,
-      link: "/original-variation-report-shivamogga"
+      link: "/original-verification-report-shivamogga"
     },
     {
       title: "Home Loan Legal Opinion",

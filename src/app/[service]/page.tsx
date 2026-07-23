@@ -112,7 +112,7 @@ export default async function ServicePage({ params }: Props) {
               <h2 className="text-3xl font-bold text-legal-dark font-cormorant mb-6">
                 Why Choose Advocate Divakara S.V. for <span className="text-[#D47C42]">{title}</span>?
               </h2>
-              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
+              <p className="text-gray-600 mb-8 leading-relaxed text-xl">
                 When dealing with property laws, banking regulations, or civil matters, you need precision and trust. Advocate Divakara S.V. is highly regarded across Shivamogga for rigorous legal scrutiny and completely bank-compliant reporting.
               </p>
               <ul className="space-y-5">
@@ -124,7 +124,7 @@ export default async function ServicePage({ params }: Props) {
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-[#F8F6F5] border border-gray-100">
                     <CheckCircle className="w-6 h-6 text-[#D47C42] flex-shrink-0" />
-                    <span className="text-legal-dark font-bold">{item}</span>
+                    <span className="text-legal-dark font-bold text-lg">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -136,7 +136,7 @@ export default async function ServicePage({ params }: Props) {
               <div className="relative z-10">
                 <Scale className="w-16 h-16 text-[#D47C42] mb-6 mx-auto opacity-90" />
                 <h3 className="text-2xl font-bold text-white font-cormorant mb-4">Need Immediate Assistance?</h3>
-                <p className="text-gray-300 mb-8 leading-relaxed">
+                <p className="text-gray-300 mb-8 leading-relaxed text-lg">
                   Every property transaction carries hidden legal risks. Don't leave your investment to chance. Book a consultation today to ensure your documents are 100% secure.
                 </p>
                 <Link href="/contact-best-lawyer-shivamogga" className="w-full btn-primary bg-[#D47C42] text-white hover:bg-[#b06536] flex items-center justify-center gap-2 border-none">

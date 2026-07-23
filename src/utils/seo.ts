@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 const siteName = 'Advocate Divakara S.V.';
-const baseUrl = 'https://advocate-divakara-shivamogga.in';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.advocate-divakara-shivamogga.in';
 
 type SeoProps = {
   title: string;
@@ -16,7 +16,7 @@ export function generateSeoMetadata({
   description,
   keywords,
   canonicalUrl,
-  ogImage = `${baseUrl}/images/hero_1.jpg`,
+  ogImage = `${baseUrl}/images/Advocate-devakara-shivamogga-image1.jpeg`,
 }: SeoProps): Metadata {
   const fullTitle = `${title} | ${siteName}`;
   const url = canonicalUrl ? `${baseUrl}${canonicalUrl}` : baseUrl;

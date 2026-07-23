@@ -35,7 +35,13 @@ export const seoKeywords = [
   "property-verification-for-home-loan-shivamogga",
   "legal-opinion-before-buying-property-shivamogga",
   "property-document-lawyer-shivamogga",
-  "property-dispute-lawyer-shivamogga"
+  "property-dispute-lawyer-shivamogga",
+  "bail-matters-lawyer-shivamogga",
+  "money-recovery-suits-lawyer-shivamogga",
+  "motor-vehicle-accident-lawyer-shivamogga",
+  "family-matters-lawyer-shivamogga",
+  "cheque-bounce-cases-lawyer-shivamogga",
+  "execution-cases-lawyer-shivamogga"
 ];
 
 // Helper to convert slug to human readable title (e.g. "best-advocate-in-shivamogga" -> "Best Advocate In Shivamogga")

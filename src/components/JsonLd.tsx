@@ -14,15 +14,31 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
+// WebSite JSON-LD
+export function WebSiteJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Advocate Divakara S.V.",
+    "url": "https://www.advocate-divakara-shivamogga.in",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.advocate-divakara-shivamogga.in/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+  return <JsonLd data={data} />;
+}
+
 // Global Business Entity (Attorney / LegalService)
 export function GlobalBusinessJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": ["LegalService", "Attorney", "LocalBusiness"],
     "name": "Advocate Divakara S.V.",
-    "image": "https://advocate-divakara-shivamogga.in/images/Advocate-devakara-shivamogga-image1.jpeg",
-    "@id": "https://advocate-divakara-shivamogga.in",
-    "url": "https://advocate-divakara-shivamogga.in",
+    "image": "https://www.advocate-divakara-shivamogga.in/images/Advocate-devakara-shivamogga-image1.jpeg",
+    "@id": "https://www.advocate-divakara-shivamogga.in",
+    "url": "https://www.advocate-divakara-shivamogga.in",
     "telephone": "+919448628530",
     "email": "divu.smg.adv@gmail.com",
     "address": {
@@ -57,7 +73,7 @@ export function BreadcrumbsJsonLd({
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://advocate-divakara-shivamogga.in${item.url}`
+      "item": `https://www.advocate-divakara-shivamogga.in${item.url}`
     }))
   };
   return <JsonLd data={data} />;

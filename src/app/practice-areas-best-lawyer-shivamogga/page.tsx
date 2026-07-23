@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   Briefcase,
   Landmark,
+  Scale,
   ArrowRight,
   ChevronRight
 } from "lucide-react";
@@ -54,6 +55,42 @@ export default function PracticeAreas() {
       description: "Thorough legal due diligence for residential and commercial properties to support safe purchase, lending, and investment decisions.",
       icon: <Briefcase className="w-8 h-8 text-[#D47C42]" />,
       link: "/property-due-diligence-shivamogga"
+    },
+    {
+      title: "Bail Matters",
+      description: "Expert legal assistance and prompt representation for regular bail, anticipatory bail, and other criminal bail matters.",
+      icon: <Scale className="w-8 h-8 text-[#D47C42]" />,
+      link: "/bail-matters-lawyer-shivamogga"
+    },
+    {
+      title: "Money Recovery Suits",
+      description: "Dedicated representation for the recovery of bad debts, unpaid loans, and commercial dues through civil courts.",
+      icon: <Landmark className="w-8 h-8 text-[#D47C42]" />,
+      link: "/money-recovery-suits-lawyer-shivamogga"
+    },
+    {
+      title: "Motor Vehicle Accident Cases",
+      description: "Legal support for MACT (Motor Accident Claims Tribunal) cases to secure rightful compensation for accident victims.",
+      icon: <ShieldCheck className="w-8 h-8 text-[#D47C42]" />,
+      link: "/motor-vehicle-accident-lawyer-shivamogga"
+    },
+    {
+      title: "Family Matters",
+      description: "Compassionate and confidential legal counseling and representation for divorce, alimony, child custody, and family property disputes.",
+      icon: <Home className="w-8 h-8 text-[#D47C42]" />,
+      link: "/family-matters-lawyer-shivamogga"
+    },
+    {
+      title: "Cheque Bounce Cases",
+      description: "Strict legal action and representation under Section 138 of the NI Act for dishonored cheques and related financial frauds.",
+      icon: <FileText className="w-8 h-8 text-[#D47C42]" />,
+      link: "/cheque-bounce-cases-lawyer-shivamogga"
+    },
+    {
+      title: "Execution Cases",
+      description: "Filing and pursuing execution petitions to effectively enforce court decrees, orders, and arbitral awards.",
+      icon: <Briefcase className="w-8 h-8 text-[#D47C42]" />,
+      link: "/execution-cases-lawyer-shivamogga"
     }
   ];
 
@@ -84,7 +121,7 @@ export default function PracticeAreas() {
 
           <div className="text-left md:text-center max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold font-cormorant text-white mb-4 md:mb-6 drop-shadow-md">
-              Areas of <span className="text-rose-gold block md:inline mt-1 md:mt-0">Expertise</span>
+              Areas of <span className="text-rose-gold">Expertise</span>
             </h1>
             <p className="text-base md:text-xl text-white/90 leading-relaxed">
               Specialized legal services focused on property law, legal scrutiny, and secured lending, delivered with absolute accuracy.
@@ -102,9 +139,9 @@ export default function PracticeAreas() {
               <div className="bg-[#F8F6F5] w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-legal-accent/10 transition-colors">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold font-cormorant text-legal-dark mb-3 group-hover:text-rose-gold transition-colors">{service.title}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">{service.description}</p>
-              <div className="flex items-center text-legal-accent font-bold text-sm tracking-wide uppercase">
+              <h3 className="text-2xl font-bold font-cormorant text-legal-dark mb-3 group-hover:text-rose-gold transition-colors">{service.title}</h3>
+              <p className="text-gray-600 text-base leading-relaxed mb-6 flex-grow">{service.description}</p>
+              <div className="flex items-center text-legal-accent font-bold text-base tracking-wide uppercase">
                 View Details <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </div>
             </Link>

@@ -40,7 +40,7 @@ export default function About() {
 
           <div className="text-left md:text-center max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold font-cormorant text-white mb-4 md:mb-6 drop-shadow-md">
-              About Advocate <span className="text-rose-gold block md:inline mt-1 md:mt-0">Divakara S.V.</span>
+              About Advocate <span className="text-rose-gold">Divakara S.V.</span>
             </h1>
             <p className="text-base md:text-xl text-white/90 leading-relaxed">
               Delivering 25+ years of uncompromising legal excellence, trusted by major banks and thousands of clients across Shivamogga and Karnataka.
@@ -54,7 +54,7 @@ export default function About() {
         
         {/* White Content Box */}
         <div className="bg-white rounded-[24px] md:rounded-[32px] p-6 md:p-12 shadow-xl shadow-black/5 mb-8 md:mb-16 border-t-4 border-legal-accent">
-          <div className="prose prose-lg text-gray-700 max-w-none">
+          <div className="prose prose-xl text-gray-700 max-w-none">
             <h2 className="text-3xl font-bold font-cormorant text-legal-dark mb-6">A Legacy of Trust</h2>
             <p className="mb-6 leading-relaxed">
               Divakara S.V. is a senior Advocate and Legal Consultant based in Shivamogga, Karnataka, with over <strong className="text-legal-dark">25 years of extensive experience</strong> in property law, home loan legal opinions, and document verification.

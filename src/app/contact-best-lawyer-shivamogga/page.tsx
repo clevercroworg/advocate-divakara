@@ -37,7 +37,7 @@ export default function Contact() {
 
           <div className="text-left md:text-center max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold font-cormorant text-white mb-4 md:mb-6 drop-shadow-md">
-              Contact <span className="text-rose-gold block md:inline mt-1 md:mt-0">Us</span>
+              Contact <span className="text-rose-gold">Us</span>
             </h1>
             <p className="text-base md:text-xl text-white/90 leading-relaxed">
               Get professional legal scrutiny and property law assistance from the most trusted advocate in Shivamogga.
@@ -63,12 +63,20 @@ export default function Contact() {
                 <MapPin className="w-8 h-8 text-[#D47C42] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-lg font-bold text-white mb-1 uppercase tracking-wide">Office Address</h3>
-                  <address className="text-gray-300 leading-relaxed not-italic">
+                  <address className="text-gray-300 leading-relaxed not-italic mb-4">
                     A-5, Renuka Complex, 1st Floor,<br />
                     Near Shaneshwara Temple,<br />
                     3rd Cross, Durgigudi,<br />
                     Shivamogga – Karnataka
                   </address>
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=Divakara+S+V,+Advocate,+Shivamogga" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center gap-2 text-sm font-bold text-[#D47C42] hover:text-white transition-colors border border-[#D47C42] hover:bg-[#D47C42] px-4 py-2 rounded-lg"
+                  >
+                    Open in Google Maps
+                  </a>
                 </div>
               </div>
 
@@ -95,14 +103,15 @@ export default function Contact() {
           </div>
 
           {/* Map Container (Right Side) */}
-          <div className="lg:w-1/2 h-[300px] lg:h-auto bg-gray-100 relative">
+          <div className="lg:w-1/2 h-[300px] lg:h-auto bg-gray-100 relative min-h-[300px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m2!1s0x3bbadd77e3843e91%3A0xc3ba67e997f6424e!2sDurgigudi%2C%20Shivamogga%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.02380911134526!2d75.57118892705641!3d13.935908753285142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbba929ac5efcb3%3A0xaedb1a2d9438ef77!2sDivakara%20S%20V%2C%20Advocate%2C%20Shivamogga!5e0!3m2!1sen!2sin!4v1784793529476!5m2!1sen!2sin"
               className="absolute inset-0 w-full h-full"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
+              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-top-navigation"
             ></iframe>
           </div>
         </div>

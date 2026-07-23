@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { seoKeywords } from '@/data/seoKeywords';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://advocate-divakara-shivamogga.in'; // Ensure this matches the actual production domain
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.advocate-divakara-shivamogga.in';
 
   // Core static pages
   const staticRoutes = [
@@ -14,12 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
-    priority: route === '' ? 1 : 0.8,
+    priority: route === '' ? 1.0 : 0.8,
   }));
 
   // Dynamic SEO pages
   const dynamicRoutes = seoKeywords.map((keyword) => ({
-    url: `${baseUrl}/${keyword}`,
+    url: `${baseUrl}/${encodeURIComponent(keyword)}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,

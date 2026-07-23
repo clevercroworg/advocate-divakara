@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import {
   FileText,
   Home,
@@ -43,11 +44,13 @@ export default function HomePage() {
   const practiceAreas = [
     { icon: <FileText className="w-8 h-8 text-legal-accent" />, title: "Legal Scrutiny Reports (LSR)", description: "Preparation of detailed legal scrutiny reports involving title flow, ownership verification, encumbrance checks, and compliance as per bank and NBFC requirements.", link: "/legal-scrutiny-report-shivamogga" },
     { icon: <Home className="w-8 h-8 text-legal-accent" />, title: "Property Title Verification", description: "Comprehensive verification of property documents including sale deeds, revenue records, encumbrance certificates, and statutory approvals for safe transactions.", link: "/property-title-verification-shivamogga" },
-    { icon: <Map className="w-8 h-8 text-legal-accent" />, title: "Layout Project Document Scrutiny", description: "Detailed scrutiny of layout and project documents including title verification, encumbrance checks, statutory approvals, and litigation review.", link: "/layout-document-scrutiny-shivamogga" },
-    { icon: <Scale className="w-8 h-8 text-legal-accent" />, title: "Individual Property Legal Opinion", description: "Legal vetting of sale deeds, gift deeds, partition deeds, and other property-related agreements to ensure compliance and validity.", link: "/property-legal-opinion-shivamogga" },
-    { icon: <Scroll className="w-8 h-8 text-legal-accent" />, title: "Original Variation Reports", description: "Verification and reporting of changes in ownership, modifications in survey numbers, and cross-checking original records for accuracy.", link: "/original-variation-report-shivamogga" },
-    { icon: <ClipboardCheck className="w-8 h-8 text-legal-accent" />, title: "Due Diligence for Secured Lending", description: "Complete due diligence of property documents for banks, NBFCs, and financial institutions to facilitate safe lending decisions.", link: "/property-due-diligence-shivamogga" },
     { icon: <Landmark className="w-8 h-8 text-legal-accent" />, title: "Mortgage & Loan Legal Assistance", description: "Professional legal assistance for mortgage, home loan, and secured lending processes, ensuring compliance with statutory regulations and minimizing risk.", link: "/home-loan-legal-opinion-shivamogga" },
+    { icon: <Scale className="w-8 h-8 text-legal-accent" />, title: "Bail Matters", description: "Expert legal assistance and prompt representation for regular bail, anticipatory bail, and other criminal bail matters.", link: "/bail-matters-lawyer-shivamogga" },
+    { icon: <Landmark className="w-8 h-8 text-legal-accent" />, title: "Money Recovery Suits", description: "Dedicated representation for the recovery of bad debts, unpaid loans, and commercial dues through civil courts.", link: "/money-recovery-suits-lawyer-shivamogga" },
+    { icon: <ShieldCheck className="w-8 h-8 text-legal-accent" />, title: "Motor Vehicle Accident Cases", description: "Legal support for MACT (Motor Accident Claims Tribunal) cases to secure rightful compensation for accident victims.", link: "/motor-vehicle-accident-lawyer-shivamogga" },
+    { icon: <Home className="w-8 h-8 text-legal-accent" />, title: "Family Matters", description: "Compassionate and confidential legal counseling and representation for divorce, alimony, child custody, and family property disputes.", link: "/family-matters-lawyer-shivamogga" },
+    { icon: <FileText className="w-8 h-8 text-legal-accent" />, title: "Cheque Bounce Cases", description: "Strict legal action and representation under Section 138 of the NI Act for dishonored cheques and related financial frauds.", link: "/cheque-bounce-cases-lawyer-shivamogga" },
+    { icon: <Briefcase className="w-8 h-8 text-legal-accent" />, title: "Execution Cases", description: "Filing and pursuing execution petitions to effectively enforce court decrees, orders, and arbitral awards.", link: "/execution-cases-lawyer-shivamogga" },
   ];
 
   return (
@@ -55,7 +58,7 @@ export default function HomePage() {
       <FAQJsonLd faqs={faqs} />
       {/* Premium Hero Section */}
       <section className="bg-legal-bg relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 lg:pt-12 pb-4 lg:pb-0">
+        <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8 lg:pt-12 pb-12 lg:pb-24">
 
           {/* 1. Left Text Content */}
           <div className="flex flex-col items-start justify-center text-left order-1 lg:order-1 lg:col-span-1">
@@ -109,9 +112,16 @@ export default function HomePage() {
           {/* 3. Right Image Content */}
           <div className="w-full relative order-3 lg:order-2 lg:col-span-1 mt-12 lg:mt-0">
             <div
-              className="relative rounded-[20px] overflow-hidden shadow-2xl h-[400px] lg:h-[500px] bg-cover bg-center border-4 border-white"
-              style={{ backgroundImage: "url('/images/Advocate-devakara-shivamogga-image1.jpeg')" }}
+              className="relative rounded-[20px] overflow-hidden shadow-2xl h-[400px] lg:h-[500px] border-4 border-white"
             >
+              <Image 
+                src="/images/Advocate-devakara-shivamogga-image1.jpeg" 
+                alt="Advocate Divakara S.V. Office Exterior Shivamogga" 
+                fill 
+                priority 
+                className="object-cover object-center" 
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex items-end p-8">
                 <div className="text-white w-full">
                   <p className="font-cormorant text-3xl font-bold mb-2">Divakara S.V.</p>
@@ -185,7 +195,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
               <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
               <div className="flex items-center gap-4 mb-6">
-                <img src="/images/img_sq.jpg" alt="Client" className="w-16 h-16 rounded-full object-cover" />
+                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <h3 className="font-bold text-legal-dark">Ramesh K.</h3>
                   <p className="text-sm text-gray-500">Home Loan Applicant</p>
@@ -197,7 +207,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
               <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
               <div className="flex items-center gap-4 mb-6">
-                <img src="/images/img_sq.jpg" alt="Client" className="w-16 h-16 rounded-full object-cover" />
+                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <h3 className="font-bold text-legal-dark">Sunitha M.</h3>
                   <p className="text-sm text-gray-500">Property Buyer</p>
@@ -209,7 +219,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
               <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
               <div className="flex items-center gap-4 mb-6">
-                <img src="/images/img_sq.jpg" alt="Client" className="w-16 h-16 rounded-full object-cover" />
+                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
                 <div>
                   <h3 className="font-bold text-legal-dark">Bank Officer</h3>
                   <p className="text-sm text-gray-500">NBFC Legal Department</p>
@@ -229,19 +239,19 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
-              <img src="/images/office3.jpeg" alt="Professional Team" className="w-full h-72 object-cover transform transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/images/office3.jpeg" alt="Advocate Divakara S.V. Professional Legal Team Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Professional Team</span>
               </div>
             </div>
             <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
-              <img src="/images/office2.jpeg" alt="Location and Office" className="w-full h-72 object-cover transform transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/images/office2.jpeg" alt="Advocate Divakara S.V. Law Office Location Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Location and Office</span>
               </div>
             </div>
             <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
-              <img src="/images/office1.jpeg" alt="Exterior View" className="w-full h-72 object-cover transform transition-transform duration-500 group-hover:scale-110" />
+              <Image src="/images/office1.jpeg" alt="Advocate Divakara S.V. Office Exterior View Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Exterior View</span>
               </div>

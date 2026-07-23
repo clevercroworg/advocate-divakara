@@ -238,19 +238,19 @@ export default function HomePage() {
             <h2 className="text-section text-legal-dark fade-up text-legal-dark mb-4">Staffs and Offices</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
+            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer h-72">
               <Image src="/images/office3.jpeg" alt="Advocate Divakara S.V. Professional Legal Team Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Professional Team</span>
               </div>
             </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
+            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer h-72">
               <Image src="/images/office2.jpeg" alt="Advocate Divakara S.V. Law Office Location Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Location and Office</span>
               </div>
             </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer">
+            <div className="relative group overflow-hidden rounded-lg shadow-md cursor-pointer h-72">
               <Image src="/images/office1.jpeg" alt="Advocate Divakara S.V. Office Exterior View Shivamogga" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transform transition-transform duration-500 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end justify-center p-6  transition-opacity duration-300">
                 <span className="text-white font-bold text-lg">Exterior View</span>

@@ -16,7 +16,7 @@ export function generateSeoMetadata({
   description,
   keywords,
   canonicalUrl,
-  ogImage = `${baseUrl}/images/Advocate-devakara-shivamogga-image1.jpeg`,
+  ogImage = `${baseUrl}/images/img_sq.jpg`,
 }: SeoProps): Metadata {
   const fullTitle = `${title} | ${siteName}`;
   const url = canonicalUrl ? `${baseUrl}${canonicalUrl}` : baseUrl;

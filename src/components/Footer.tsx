@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-legal-accent text-gray-100 py-16 md:py-20 lg:py-32 border-t-[8px] border-white/20">
+    <footer className="bg-[#1B263B] text-gray-100 py-16 md:py-20 lg:py-32 border-t-[8px] border-white/20">
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <h3 className="text-2xl font-bold font-cormorant text-white mb-6">Advocate Divakara S.V.</h3>
@@ -17,6 +17,7 @@ export default function Footer() {
             <li><Link href="/" className="hover:text-white text-gray-300 transition-colors">Home</Link></li>
             <li><Link href="/about-best-lawyer-shivamogga" className="hover:text-white text-gray-300 transition-colors">About Advocate</Link></li>
             <li><Link href="/practice-areas-best-lawyer-shivamogga" className="hover:text-white text-gray-300 transition-colors">Practice Areas</Link></li>
+            <li><Link href="/blog" className="hover:text-white text-gray-300 transition-colors">Blog & Insights</Link></li>
             <li><Link href="/contact-best-lawyer-shivamogga" className="hover:text-white text-gray-300 transition-colors">Contact</Link></li>
           </ul>
         </div>

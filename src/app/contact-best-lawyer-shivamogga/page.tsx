@@ -13,19 +13,19 @@ export default function Contact() {
   return (
     <div className="bg-[#F8F6F5] min-h-screen">
       
-      {/* Dark Maroon Hero Section */}
-      <section className="bg-legal-accent text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      {/* Deep Navy Blue Hero Section */}
+      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
-          <nav aria-label="Breadcrumb" className="flex items-center text-sm text-white/70 mb-8 overflow-x-auto whitespace-nowrap pb-2">
+          <nav aria-label="Breadcrumb" className="flex items-center text-sm text-gray-300 mb-8 overflow-x-auto whitespace-nowrap pb-2">
             <ol className="flex items-center space-x-2">
               <li className="flex items-center">
-                <Link href="/" className="hover:text-rose-gold transition-colors flex items-center gap-1">
+                <Link href="/" className="hover:text-white transition-colors flex items-center gap-1">
                   <Home className="w-4 h-4" />
                   <span className="sr-only">Home</span>
                 </Link>
-                <ChevronRight className="w-4 h-4 mx-2 text-white/30 flex-shrink-0" />
+                <ChevronRight className="w-4 h-4 mx-2 text-gray-500 flex-shrink-0" />
               </li>
               <li className="flex items-center">
                 <span className="text-white font-medium" aria-current="page">
@@ -37,9 +37,9 @@ export default function Contact() {
 
           <div className="text-left md:text-center max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold font-cormorant text-white mb-4 md:mb-6 drop-shadow-md">
-              Contact <span className="text-rose-gold">Us</span>
+              Contact Us
             </h1>
-            <p className="text-base md:text-xl text-white/90 leading-relaxed">
+            <p className="text-base md:text-xl text-gray-300 leading-relaxed">
               Get professional legal scrutiny and property law assistance from the most trusted advocate in Shivamogga.
             </p>
           </div>

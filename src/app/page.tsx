@@ -9,6 +9,7 @@ import {
   Landmark,
   Scale,
   ChevronDown,
+  ChevronRight,
   CheckCircle,
   Users,
   Map,
@@ -19,6 +20,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { FAQJsonLd } from "@/components/JsonLd";
+import { blogs } from "@/data/blogs";
 
 export default function HomePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -302,6 +304,38 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="py-16 md:py-20 lg:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-section text-legal-dark fade-up font-cormorant mb-4">Legal Insights & Property Guides</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+              Stay informed with expert legal advice, property verification tips, and updates on banking norms in Shivamogga.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {blogs.slice(0, 3).map((blog) => (
+              <div key={blog.slug} className="bg-[#F8F6F5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
+                <h3 className="font-bold text-xl text-legal-dark mb-4 font-sans leading-snug">{blog.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-2">
+                  {blog.excerpt}
+                </p>
+                <Link href={`/blog/${blog.slug}`} className="text-[#D47C42] font-bold text-sm flex items-center gap-2 hover:text-[#b06536] transition-colors mt-auto group">
+                  Read Article <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12 md:mt-16">
+            <Link href="/blog" className="inline-flex px-8 py-3 rounded-lg font-bold bg-[#1B263B] text-white hover:bg-[#151d2d] transition-all shadow-md items-center justify-center">
+              View All Legal Articles
+            </Link>
           </div>
         </div>
       </section>

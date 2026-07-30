@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { seoKeywords } from '@/data/seoKeywords';
+import { blogs } from '@/data/blogs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.advocate-divakara-shivamogga.in';
@@ -10,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about-best-lawyer-shivamogga',
     '/contact-best-lawyer-shivamogga',
     '/practice-areas-best-lawyer-shivamogga',
+    '/blog',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
@@ -25,5 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  return [...staticRoutes, ...dynamicRoutes];
+  // Dynamic Blog pages
+  const blogRoutes = blogs.map((blog) => ({
+    url: `${baseUrl}/blog/${blog.slug}`,
+    lastModified: new Date(blog.datePublished),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...dynamicRoutes, ...blogRoutes];
 }

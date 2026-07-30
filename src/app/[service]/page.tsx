@@ -139,9 +139,9 @@ export default async function ServicePage({ params }: Props) {
                 <p className="text-gray-300 mb-8 leading-relaxed text-lg">
                   Every property transaction carries hidden legal risks. Don't leave your investment to chance. Book a consultation today to ensure your documents are 100% secure.
                 </p>
-                <Link href="/contact-best-lawyer-shivamogga" className="w-full btn-primary bg-[#D47C42] text-white hover:bg-[#b06536] flex items-center justify-center gap-2 border-none">
-                  Book a Consultation <ArrowRight className="w-5 h-5" />
-                </Link>
+                <a href="tel:+919448628530" className="w-full btn-primary bg-[#D47C42] text-white hover:bg-[#b06536] flex items-center justify-center gap-2 border-none">
+                  Call Now <ArrowRight className="w-5 h-5" />
+                </a>
               </div>
             </div>
 

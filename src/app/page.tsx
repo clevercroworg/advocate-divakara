@@ -14,7 +14,8 @@ import {
   Map,
   ClipboardCheck,
   Building,
-  Scroll
+  Scroll,
+  Award
 } from "lucide-react";
 import { useState } from "react";
 import { FAQJsonLd } from "@/components/JsonLd";
@@ -65,18 +66,35 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/50 text-legal-dark text-xs md:text-sm font-bold tracking-widest uppercase shadow-sm">
               <Scale className="w-3 h-3 md:w-4 md:h-4 text-legal-accent" /> 25+ Years of Legal Excellence
             </div>
-            <h1 className="text-hero text-legal-dark fade-up drop-shadow-sm w-full mt-4 md:mt-6">
-              Trusted Advocate & <br className="hidden md:block" /> <span className="text-legal-accent">Legal Consultant</span> in Shivamogga
+            <h1 className="text-hero text-legal-dark fade-up drop-shadow-sm w-full mt-4 md:mt-6 leading-tight relative pl-12 md:pl-16">
+              <Award className="absolute left-0 top-1 md:top-2 w-10 h-10 md:w-14 md:h-14 text-[#D4AF37] fill-[#D4AF37]/20" />
+              Trusted Advocate & <br className="hidden md:block" /> 
+              <span className="text-legal-accent">Lawyer</span> in Shivamogga
             </h1>
-            <p className="text-lg md:text-xl font-medium text-gray-700 fade-up leading-relaxed w-full max-w-none md:max-w-xl mt-4 md:mt-8">
-              Hi, I am Divakara S.V. I provide professional Legal Scrutiny Reports, property title verification, and highly secure home loan legal opinions.
-            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 mt-5 md:mt-8 fade-up w-full max-w-none lg:max-w-2xl">
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <ShieldCheck className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Property Verification
+              </span>
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <FileText className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Legal Scrutiny
+              </span>
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <Landmark className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Civil Law
+              </span>
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <Users className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Family Law
+              </span>
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <Scroll className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Legal Opinions
+              </span>
+              <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
+                <ClipboardCheck className="w-4 h-4 text-white/90 shrink-0 hidden sm:block" /> Notary Services
+              </span>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-6 md:mt-10 fade-up" style={{ animationDelay: "300ms" }}>
-              <a href="tel:+919448628530" className="btn-primary w-full sm:w-auto">
-                Book Consultation
-              </a>
-              <a href="tel:+919448628530" className="btn-secondary w-full sm:w-auto backdrop-blur-md">
-                Call Now
+
+              <a href="tel:+919448628530" className="btn-primary w-full sm:w-auto bg-[#198754] border-none text-white hover:bg-[#146c43] shadow-lg">
+                Get Help from Best Advocate
               </a>
             </div>
           </div>
@@ -114,12 +132,12 @@ export default function HomePage() {
             <div
               className="relative rounded-[20px] overflow-hidden shadow-2xl h-[400px] lg:h-[500px] border-4 border-white"
             >
-              <Image 
-                src="/images/Advocate-devakara-shivamogga-image1.jpeg" 
-                alt="Advocate Divakara S.V. Office Exterior Shivamogga" 
-                fill 
-                priority 
-                className="object-cover object-center" 
+              <Image
+                src="/images/Advocate-devakara-shivamogga-image1.jpeg"
+                alt="Advocate Divakara S.V. Office Exterior Shivamogga"
+                fill
+                priority
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent flex items-end p-8">

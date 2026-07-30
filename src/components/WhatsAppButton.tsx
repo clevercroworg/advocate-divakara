@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
       href="https://wa.me/919448628530?text=Hello%20Advocate%20Divakara%20S.V.,%20I%20need%20legal%20assistance"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 hover:scale-110 transition-transform duration-300 drop-shadow-xl"
+      className="fixed md:bottom-6 bottom-24 right-4 md:right-6 z-50 hover:scale-110 transition-transform duration-300 drop-shadow-xl"
     >
       <div className="bg-[#25D366] rounded-full p-3 shadow-lg flex items-center justify-center border-2 border-white">
         <svg

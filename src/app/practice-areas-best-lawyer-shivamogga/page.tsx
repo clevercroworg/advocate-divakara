@@ -154,9 +154,9 @@ export default function PracticeAreas() {
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold font-cormorant text-white mb-4">Need Legal Assistance?</h2>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">Contact us today to schedule a consultation and get professional legal scrutiny and property law assistance.</p>
-            <Link href="/contact-best-lawyer-shivamogga" className="btn-primary inline-block px-10 py-4 rounded-full shadow-lg hover:shadow-xl transition-all">
-              Book a Consultation
-            </Link>
+              <a href="tel:+919448628530" className="btn-primary w-full sm:w-auto bg-legal-accent border-none text-white hover:bg-[#146c43]">
+                Call Now
+              </a>
           </div>
         </div>
 

@@ -1,16 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Cormorant_Garamond, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import MobileCallButton from "@/components/MobileCallButton";
 import { GlobalBusinessJsonLd, WebSiteJsonLd } from "@/components/JsonLd";
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-cormorant"
-});
 const poppins = Poppins({ 
   subsets: ["latin"], 
   weight: ["300", "400", "500", "600", "700"],
@@ -69,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${cormorant.variable} antialiased text-gray-900 flex flex-col min-h-screen font-sans text-xl`}
+        className={`${poppins.variable} antialiased text-gray-900 flex flex-col min-h-screen font-sans text-xl`}
       >
         <Navbar />
         <main className="flex-grow">
@@ -77,6 +72,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <WhatsAppButton />
+        <MobileCallButton />
         <GlobalBusinessJsonLd />
         <WebSiteJsonLd />
       </body>

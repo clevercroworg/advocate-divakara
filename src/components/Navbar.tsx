@@ -29,11 +29,6 @@ export default function Navbar() {
             <Link href="/practice-areas-best-lawyer-shivamogga" className="hover:text-rose-gold transition-colors duration-200 px-3 py-2 text-sm font-semibold tracking-wide">Practice Areas</Link>
             <Link href="/contact-best-lawyer-shivamogga" className="hover:text-rose-gold transition-colors duration-200 px-3 py-2 text-sm font-semibold tracking-wide">Contact</Link>
           </div>
-          <div className="hidden md:flex">
-            <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-              Book a Consultation
-            </Link>
-          </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
@@ -56,10 +51,6 @@ export default function Navbar() {
             <Link onClick={toggleMenu} href="/about-best-lawyer-shivamogga" className="block px-3 py-3 text-base font-semibold text-legal-dark hover:text-rose-gold hover:bg-gray-50 rounded-md">About</Link>
             <Link onClick={toggleMenu} href="/practice-areas-best-lawyer-shivamogga" className="block px-3 py-3 text-base font-semibold text-legal-dark hover:text-rose-gold hover:bg-gray-50 rounded-md">Practice Areas</Link>
             <Link onClick={toggleMenu} href="/contact-best-lawyer-shivamogga" className="block px-3 py-3 text-base font-semibold text-legal-dark hover:text-rose-gold hover:bg-gray-50 rounded-md">Contact</Link>
-
-            <Link onClick={toggleMenu} href="/contact-best-lawyer-shivamogga" className="btn-primary w-full mt-4">
-              Book a Consultation
-            </Link>
           </div>
         </div>
       )}

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { ShieldCheck, Scale, FileText, CheckCircle, ChevronRight, Home } from 'lucide-react';
@@ -6,7 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = generateSeoMetadata({
-  title: 'About Divakara S.V. | Best Lawyer in Shivamogga',
+  title: 'About Divakara S.V. | Lawyer in Shivamogga',
   description: 'Learn more about Advocate Divakara S.V., a senior legal consultant with 25+ years of experience in property law, home loans, and civil litigation in Shivamogga.',
 });
 
@@ -48,8 +49,8 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* Light Content Section */}
+      <ImportantNotice />
+{/* Light Content Section */}
       <section className="max-w-5xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-16">
         
         {/* White Content Box */}
@@ -92,7 +93,7 @@ export default function About() {
           <div className="w-full md:w-5/12 h-[280px] sm:h-[350px] md:h-auto relative">
             <Image 
               src="/images/Advocate-devakara-shivamogga-image1.jpeg"
-              alt="Divakara S.V - Best Advocate in Shivamogga"
+              alt="Divakara S.V - Advocate in Shivamogga"
               fill
               className="object-cover object-top"
               priority
@@ -116,6 +117,7 @@ export default function About() {
         </div>
 
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

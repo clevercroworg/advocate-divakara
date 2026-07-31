@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import ImportantNotice from "@/components/ImportantNotice";
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 import { blogs } from '@/data/blogs';
@@ -43,8 +44,8 @@ export default function BlogArchivePage() {
           </div>
         </div>
       </section>
-
-      {/* Blog Grid Section */}
+      <ImportantNotice />
+{/* Blog Grid Section */}
       <section className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20">
         <div className="bg-white rounded-[24px] md:rounded-[32px] p-6 md:p-12 shadow-xl shadow-black/5 border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -65,6 +66,7 @@ export default function BlogArchivePage() {
           </div>
         </div>
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

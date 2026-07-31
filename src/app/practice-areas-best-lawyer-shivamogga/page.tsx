@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
@@ -129,8 +130,8 @@ export default function PracticeAreas() {
           </div>
         </div>
       </section>
-
-      {/* Light Content Section */}
+      <ImportantNotice />
+{/* Light Content Section */}
       <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -161,6 +162,7 @@ export default function PracticeAreas() {
         </div>
 
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import MobileCallButton from "@/components/MobileCallButton";
+import DisclaimerPopup from "@/components/DisclaimerPopup";
 import { GlobalBusinessJsonLd, WebSiteJsonLd } from "@/components/JsonLd";
 const poppins = Poppins({ 
   subsets: ["latin"], 
@@ -66,6 +67,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} antialiased text-gray-900 flex flex-col min-h-screen font-sans text-xl`}
       >
+        <DisclaimerPopup />
         <Navbar />
         <main className="flex-grow">
           {children}

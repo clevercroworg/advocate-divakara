@@ -1,4 +1,5 @@
 import { seoKeywords, formatSlugToTitle } from "@/data/seoKeywords";
+import ImportantNotice from "@/components/ImportantNotice";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ShieldCheck, ArrowRight, CheckCircle, Scale, Phone, ChevronRight, Home } from "lucide-react";
@@ -97,8 +98,8 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
-
-      {/* Light Content Section */}
+      <ImportantNotice />
+{/* Light Content Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
         <div className="bg-white rounded-2xl p-6 md:p-12 shadow-xl border border-gray-100">
@@ -135,13 +136,14 @@ export default async function ServicePage({ params }: Props) {
                 Every legal matter carries risk. Don't leave your case or investment to chance. Book a consultation today to ensure you are legally secure.
               </p>
               <a href="tel:+919448628530" className="w-full inline-flex px-8 py-3 rounded-lg font-bold bg-legal-dark text-white hover:bg-legal-dark/90 items-center justify-center gap-2 transition-all shadow-md">
-                Contact Best Advocate in Shivamogga <ArrowRight className="w-4 h-4" />
+                Contact Advocate in Shivamogga <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
           </div>
         </div>
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

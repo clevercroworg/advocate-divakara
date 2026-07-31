@@ -49,8 +49,10 @@ export const seoKeywords = [
 
 // Helper to convert slug to human readable title (e.g. "best-advocate-in-shivamogga" -> "Best Advocate In Shivamogga")
 export function formatSlugToTitle(slug: string): string {
-  return slug
+  const title = slug
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
+  
+  return title.replace(/^Best\s+/i, '');
 }

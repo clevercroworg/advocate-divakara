@@ -1,11 +1,12 @@
 import { Metadata } from 'next';
+import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { MapPin, Phone, Mail, ChevronRight, Home } from "lucide-react";
 import Link from 'next/link';
 
 export const metadata: Metadata = generateSeoMetadata({
-  title: 'Contact Divakara S.V. | Best Lawyer in Shivamogga',
+  title: 'Contact Divakara S.V. | Lawyer in Shivamogga',
   description: 'Get in touch with Advocate Divakara S.V. for professional legal scrutiny, property title verification, and civil court representation in Shivamogga.',
 });
 
@@ -45,8 +46,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Light Content Section */}
+      <ImportantNotice />
+{/* Light Content Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
         {/* Address and Map Split Grid */}
@@ -176,6 +177,7 @@ export default function Contact() {
           </form>
         </div>
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

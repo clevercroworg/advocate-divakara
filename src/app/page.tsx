@@ -21,26 +21,27 @@ import {
 import { useState } from "react";
 import { FAQJsonLd } from "@/components/JsonLd";
 import { blogs } from "@/data/blogs";
+import ImportantNotice from "@/components/ImportantNotice";
 
 export default function HomePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [
     {
-      question: "Is Advocate Divakara S.V the best advocate in Shivamogga for Legal Scrutiny Reports for home loans?",
-      answer: "Yes. Advocate Divakara S.V is recognized as one of the best advocates in Shivamogga for providing bank-compliant Legal Scrutiny Reports (LSR) for home loans, mortgage loans, and secured lending, ensuring thorough verification of property documents and clear title flow."
+      question: "Is Advocate Divakara S.V an advocate in Shivamogga for Legal Scrutiny Reports for home loans?",
+      answer: "Yes. Advocate Divakara S.V is recognized as one of an advocates in Shivamogga for providing bank-compliant Legal Scrutiny Reports (LSR) for home loans, mortgage loans, and secured lending, ensuring thorough verification of property documents and clear title flow."
     },
     {
-      question: "Does the best advocate in Shimoga, Advocate Divakara S.V, verify property title and ownership history?",
-      answer: "Yes. As one of the best property law advocates in Shimoga (Shivamogga), Advocate Divakara S.V verifies property title and ownership history by examining sale deeds, EC, revenue records, conversion orders, layout approvals, and continuity of ownership."
+      question: "Does an advocate in Shimoga, Advocate Divakara S.V, verify property title and ownership history?",
+      answer: "Yes. As a senior property law advocate in Shimoga (Shivamogga), Advocate Divakara S.V verifies property title and ownership history by examining sale deeds, EC, revenue records, conversion orders, layout approvals, and continuity of ownership."
     },
     {
-      question: "Is Advocate Divakara S.V the best advocate in Shivamogga for banks and NBFC legal services?",
-      answer: "Yes. Advocate Divakara S.V is considered one of the best advocates in Shivamogga for working with banks, NBFCs, MSMEs, and financial institutions by providing reliable legal opinions, property scrutiny reports, and documentation as per prescribed formats."
+      question: "Is Advocate Divakara S.V an advocate in Shivamogga for banks and NBFC legal services?",
+      answer: "Yes. Advocate Divakara S.V is considered one of an advocates in Shivamogga for working with banks, NBFCs, MSMEs, and financial institutions by providing reliable legal opinions, property scrutiny reports, and documentation as per prescribed formats."
     },
     {
-      question: "How can I consult the best advocate in Shivamogga, Advocate Divakara S.V, for legal verification?",
-      answer: "To consult one of the best advocates in Shivamogga / Shimoga, you can call or WhatsApp Advocate Divakara S.V at 94486 28530 or visit the office at Durgigudi, Shivamogga for professional legal consultation and document verification."
+      question: "How can I consult an advocate in Shivamogga, Advocate Divakara S.V, for legal verification?",
+      answer: "To consult one of an advocates in Shivamogga / Shimoga, you can call or WhatsApp Advocate Divakara S.V at 94486 28530 or visit the office at Durgigudi, Shivamogga for professional legal consultation and document verification."
     }
   ];
 
@@ -96,7 +97,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-6 md:mt-10 fade-up" style={{ animationDelay: "300ms" }}>
 
               <a href="tel:+919448628530" className="btn-primary w-full sm:w-auto bg-[#198754] border-none text-white hover:bg-[#146c43] shadow-lg">
-                Get Help from Best Advocate
+                Get Legal Help
               </a>
             </div>
           </div>
@@ -155,8 +156,8 @@ export default function HomePage() {
 
         </div>
       </section>
-
-      {/* Intro Section */}
+      <ImportantNotice />
+{/* Intro Section */}
       <section className="py-12 md:py-16 lg:py-20 bg-legal-accent">
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 max-w-4xl text-center">
           <h2 className="text-section text-white fade-up mb-6 drop-shadow-sm">About Divakara S.V.</h2>
@@ -173,8 +174,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Featured Practice Areas */}
+      <ImportantNotice />
+{/* Featured Practice Areas */}
       <section className="py-12 md:py-16 lg:py-20 bg-legal-bg">
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -204,54 +205,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
-      <section className="py-12 md:py-16 lg:py-20 bg-legal-accent border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-section text-white fade-up mb-4 drop-shadow-md">Happy Clients Say</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
-              <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
-              <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
-                <div>
-                  <h3 className="font-bold text-legal-dark">Ramesh K.</h3>
-                  <p className="text-sm text-gray-500">Home Loan Applicant</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">"Advocate Divakara S.V. provided a detailed Legal Scrutiny Report for my home loan. His explanation was clear and the bank accepted the report without any issues."</p>
-            </div>
-
-            <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
-              <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
-              <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
-                <div>
-                  <h3 className="font-bold text-legal-dark">Sunitha M.</h3>
-                  <p className="text-sm text-gray-500">Property Buyer</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">"I approached him for property title verification before purchase. The due diligence was thorough and helped me avoid legal risks."</p>
-            </div>
-
-            <div className="relative overflow-hidden group bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-[#D47C42]">
-              <div className="absolute inset-0 -translate-x-[150%] skew-x-[-15deg] bg-gradient-to-r from-transparent via-white/60 to-transparent group-hover:animate-shine z-10 pointer-events-none" />
-              <div className="flex items-center gap-4 mb-6">
-                <Image src="/images/img_sq.jpg" alt="Client Review Advocate Divakara" width={64} height={64} className="w-16 h-16 rounded-full object-cover" />
-                <div>
-                  <h3 className="font-bold text-legal-dark">Bank Officer</h3>
-                  <p className="text-sm text-gray-500">NBFC Legal Department</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">"His Legal Scrutiny Reports are well-structured, accurate, and fully compliant with banking standards. We regularly rely on his opinions for secured lending."</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Staffs and Offices */}
+      <ImportantNotice />
+{/* Staffs and Offices */}
       <section className="py-16 md:py-20 lg:py-32 md:py-20 lg:py-[120px] bg-white">
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -279,8 +234,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* FAQ Section */}
+      <ImportantNotice />
+{/* FAQ Section */}
       <section className="py-16 md:py-20 lg:py-32 md:py-20 lg:py-[120px] bg-legal-bg">
         <div className="max-w-4xl mx-auto px-5 md:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -307,8 +262,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Blog Section */}
+      <ImportantNotice />
+{/* Blog Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
@@ -339,6 +294,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </div>
+      <ImportantNotice />
+</div>
   );
 }

@@ -36,9 +36,13 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
-        <p>Copyright © {new Date().getFullYear()} advocate-divakara-shivamogga.in. All rights reserved.</p>
-        <p className="mt-2 md:mt-0">Designed with precision.</p>
+      <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 mt-16 pt-8 border-t border-white/20 text-sm text-gray-300">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+          <p>Copyright © {new Date().getFullYear()} advocate-divakara-shivamogga.in. All rights reserved.</p>
+        </div>
+        <div className="text-center md:text-left text-xs text-gray-400 mt-2">
+          <p>This website is in compliance with the Advocates Act, 1961 and Bar Council of India Rules.</p>
+        </div>
       </div>
     </footer>
   );

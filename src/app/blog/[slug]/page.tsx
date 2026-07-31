@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import ImportantNotice from "@/components/ImportantNotice";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import type { Metadata, ResolvingMetadata } from "next";
@@ -103,8 +104,8 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </div>
       </section>
-
-      {/* Main Content Area */}
+      <ImportantNotice />
+{/* Main Content Area */}
       <main className="max-w-7xl mx-auto px-5 mt-10 md:mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-20">
         
         {/* Article Body */}

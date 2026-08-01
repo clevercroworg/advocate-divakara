@@ -8,9 +8,9 @@ export default function RegisteredSaleDeed() {
       </div>
 
       <div className="w-full relative h-[300px] md:h-[400px] mb-8 rounded-xl overflow-hidden shadow-lg border border-gray-200">
-        <img 
-          src="/images/registered-sale-deed-shivamogga.jpg" 
-          alt="Registered Sale Deed execution at Shivamogga Sub-Registrar Office" 
+        <img
+          src="/images/registered-sale-deed-shivamogga.jpg"
+          alt="Registered Sale Deed execution at Shivamogga Sub-Registrar Office"
           className="w-full h-full object-cover"
         />
       </div>
@@ -19,17 +19,17 @@ export default function RegisteredSaleDeed() {
         What is a Registered Sale Deed?
       </h2>
       <p className="mb-4 leading-relaxed">
-        A Registered Sale Deed is one of the most vital documents relating to any immovable property in Shivamogga and across Karnataka. It is the primary legal document through which the absolute ownership of a property is lawfully transferred from the seller (Vendor) to the purchaser (Vendee). 
+        A Registered Sale Deed is one of the most vital documents relating to any immovable property in Shivamogga and across Karnataka. It is the primary legal document through which the absolute ownership of a property is lawfully transferred from the seller (Vendor) to the purchaser (Vendee).
       </p>
       <p className="mb-6 leading-relaxed">
-        Mere payment of sale consideration or the physical handing over of possession does not make a person the legal owner under Indian law. A person becomes the lawful, recognized owner only when the Sale Deed is duly executed and formally registered before the jurisdictional Sub-Registrar (e.g., at the Shivamogga or Bhadravathi Sub-Registrar offices).
+        Here payment of sale consideration or the physical handing over of possession does not make a person the legal owner under Indian law. A person becomes the lawful, recognized owner only when the Sale Deed is duly executed and formally registered before the jurisdictional Sub-Registrar (e.g., at the Shivamogga or Bhadravathi Sub-Registrar offices).
       </p>
 
       <h2 className="text-3xl font-bold text-[#50223c] mt-12 mb-6 font-cormorant border-b border-gray-200 pb-2">
         Why Registration is Legally Compulsory
       </h2>
       <p className="mb-4 leading-relaxed">
-        Registration of a Sale Deed is strictly compulsory under the <strong>Registration Act, 1908</strong>. Proper registration grants legal validity to the transaction and creates an indisputable, permanent public record of the ownership transfer. 
+        Registration of a Sale Deed is strictly compulsory under the <strong>Registration Act, 1908</strong>. Proper registration grants legal validity to the transaction and creates an indisputable, permanent public record of the ownership transfer.
       </p>
       <p className="mb-4 leading-relaxed">
         This public record protects the fundamental rights of both the seller and the purchaser, helps prevent fraudulent transactions (like double-selling), significantly reduces ownership disputes, and enables any prospective buyer or bank to verify the ownership records directly from the Sub-Registrar's office.
@@ -41,7 +41,7 @@ export default function RegisteredSaleDeed() {
       <h2 className="text-3xl font-bold text-[#50223c] mt-12 mb-6 font-cormorant border-b border-gray-200 pb-2">
         Essential Components of a Drafted Sale Deed
       </h2>
-      
+
       <h3 className="text-xl font-bold text-gray-800 mt-8 mb-3">1. Complete Identification Particulars</h3>
       <p className="mb-4 leading-relaxed">
         A meticulously drafted Sale Deed must contain the complete, error-free particulars of both the seller and the purchaser. This includes their full names, ages, parentage, residential addresses, and PAN/Aadhar details. It should also house an unambiguous description of the property—such as the survey number, site or property number, Khata details, exact measurements (extent), precise boundaries (North, South, East, West), village, hobli, taluk, and district. This eliminates any future ambiguity regarding the specific asset being transferred.
@@ -72,7 +72,7 @@ export default function RegisteredSaleDeed() {
       <div className="bg-[#f0dac5] p-6 md:p-8 rounded-xl my-8 border border-[#e0c2a3]">
         <h3 className="text-2xl font-bold text-[#50223c] mb-4 font-cormorant">Why the Sale Deed is Only Part of the Picture</h3>
         <p className="mb-4 leading-relaxed text-gray-800">
-          In every real estate transaction, a Registered Sale Deed is universally treated as the foundation of ownership. Even a minor clerical mistake, omission, or defect in its drafting can severely affect the marketability of the title, creating long-term legal complications. Hence, every Sale Deed must be meticulously drafted by an experienced legal professional after a thorough Legal Scrutiny Report (LSR) vetting previous title deeds, Khata extracts, ECs (Encumbrance Certificates), and RTCs.
+          In every real estate transaction, a Registered Sale Deed is universally treated as the foundation of ownership. Even a minor clerical mistake, omission, or defect in its drafting can severely affect the marketability of the title, creating long-term legal complications. Hence, every Sale Deed must be meticulously drafted by an experienced legal professional like <strong>Advocate Divakara S.V. in Shivamogga</strong>, after a thorough Legal Scrutiny Report (LSR) vetting previous title deeds, Khata extracts, ECs (Encumbrance Certificates), and RTCs.
         </p>
         <p className="leading-relaxed text-gray-800">
           However, it is crucial to understand that while a Sale Deed is the anchor of ownership, <strong>it alone does not constitute the complete set of property documents</strong>. A flawless, marketable title cannot be determined solely by looking at a Sale Deed. Numerous other revenue records, municipal endorsements, and statutory approvals are equally critical. In forthcoming articles, we will explore each of these supplementary documents, their legal gravity, and how they collectively establish a safe, dispute-free title.

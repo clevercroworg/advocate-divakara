@@ -24,7 +24,7 @@ export const blogs: BlogPost[] = [
     shortTitle: 'Importance of Sale Deed',
     category: 'Property Law',
     description: 'Understand the legal importance of a Registered Sale Deed in Karnataka. Learn how title scrutiny, Khata, and Sub-Registrar norms in Shivamogga secure your property.',
-    excerpt: 'A Registered Sale Deed is the foundation of immovable property ownership. Discover why mere payment doesn\'t make you an owner and what clauses to watch out for.',
+    excerpt: 'A Registered Sale Deed is the foundation of immovable property ownership. Discover why Here payment doesn\'t make you an owner and what clauses to watch out for.',
     author: 'Advocate Divakara S.V.',
     datePublished: new Date().toISOString().split('T')[0],
     content: <RegisteredSaleDeed />,

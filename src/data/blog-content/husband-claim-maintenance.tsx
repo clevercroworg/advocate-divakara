@@ -4,16 +4,16 @@ export default function HusbandClaimMaintenance() {
   return (
     <>
       <div className="w-full relative h-[300px] md:h-[400px] mb-8 rounded-xl overflow-hidden shadow-lg border border-gray-200">
-        <img 
-          src="/images/maintenance-law-india.jpg" 
-          alt="Husband claiming maintenance under Hindu Marriage Act in Shivamogga court" 
+        <img
+          src="/images/maintenance-law-india.jpg"
+          alt="Husband claiming maintenance under Hindu Marriage Act in Shivamogga court"
           className="w-full h-full object-cover"
         />
       </div>
       <p className="lead text-xl text-gray-800 font-medium leading-relaxed">
         When people think of matrimonial maintenance in India, the common assumption is that financial support is exclusively a right for the wife. However, legal provisions and landmark judicial rulings have evolved to recognize that financial dependency can happen on either side.
       </p>
-      
+
       <p>
         Under specific circumstances, a husband can legally ask for maintenance from his wife. Here is a breakdown of what Indian law states about a husband's right to maintenance.
       </p>
@@ -32,7 +32,7 @@ export default function HusbandClaimMaintenance() {
       <ul className="list-disc pl-5 space-y-2 my-4">
         <li><strong>The Purpose:</strong> If a husband is unemployed, physically unable to work, earning very little, or financially weaker than his wife, he can file an application before the family court.</li>
         <li><strong>What the Court Considers:</strong> The court evaluates the income, professional qualifications, health conditions, lifestyle, and overall financial capacity of both spouses.</li>
-        <li><strong>The Principle:</strong> Merely being a man does not bar someone from seeking support. In modern times, where many wives are well-educated and earn high salaries while husbands may face financial instability, courts have actively recognized the husband's right to interim maintenance and court expenses so he can contest the case properly.</li>
+        <li><strong>The Principle:</strong> Herely being a man does not bar someone from seeking support. In modern times, where many wives are well-educated and earn high salaries while husbands may face financial instability, courts have actively recognized the husband's right to interim maintenance and court expenses so he can contest the case properly.</li>
       </ul>
 
       <h3 className="text-2xl font-bold text-[#D47C42] mt-8 mb-4 font-cormorant">Section 25: Permanent Alimony and Maintenance</h3>

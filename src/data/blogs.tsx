@@ -2,6 +2,8 @@ import Checklist from './blog-content/checklist';
 import WhyBanksReject from './blog-content/why-banks-reject';
 import UnderstandingEncumbrance from './blog-content/understanding-encumbrance';
 
+import HusbandClaimMaintenance from './blog-content/husband-claim-maintenance';
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -15,6 +17,17 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: 'can-a-husband-claim-maintenance-from-wife-indian-law-best-legal-advocate-shimoga',
+    title: 'Can a Husband Also Claim Maintenance from a Wife? – What Indian Law Says',
+    shortTitle: 'Husband Claiming Maintenance',
+    category: 'Family Law',
+    description: 'Learn about the legal provisions under the Hindu Marriage Act, 1955, where a husband can claim interim or permanent maintenance from his earning wife.',
+    excerpt: 'When people think of matrimonial maintenance, the assumption is that it is exclusively a right for the wife. However, under specific circumstances, a husband can legally ask for maintenance.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <HusbandClaimMaintenance />,
+  },
   {
     slug: 'property-document-verification-checklist-shivamogga',
     title: 'How to Verify Property Documents Before Buying a House in Shivamogga',

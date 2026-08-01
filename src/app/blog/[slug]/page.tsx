@@ -78,12 +78,12 @@ export default async function BlogPostPage({ params }: Props) {
       <section className="bg-[#50223c] text-white pt-8 md:pt-16 pb-12 md:pb-16 px-5 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         <div className="max-w-4xl mx-auto relative z-10">
-          <nav className="flex items-center gap-2 text-sm text-gray-300 mb-6 font-sans">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-4 h-4" />
-            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
-            <ChevronRight className="w-4 h-4" />
-            <span className="text-white font-medium truncate">{blog.shortTitle}</span>
+          <nav className="flex items-center gap-2 text-sm text-gray-300 mb-6 font-sans flex-wrap min-w-0">
+            <Link href="/" className="hover:text-white transition-colors whitespace-nowrap">Home</Link>
+            <ChevronRight className="w-4 h-4 flex-shrink-0" />
+            <Link href="/blog" className="hover:text-white transition-colors whitespace-nowrap">Blog</Link>
+            <ChevronRight className="w-4 h-4 flex-shrink-0" />
+            <span className="text-white font-medium break-words whitespace-normal">{blog.shortTitle}</span>
           </nav>
 
           <h1 className="text-3xl md:text-5xl font-bold font-cormorant leading-tight mb-6">
@@ -104,10 +104,10 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </section>
 {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto px-5 mt-10 md:mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-20">
+      <main className="max-w-5xl mx-auto px-5 mt-10 md:mt-12 relative z-20">
         
         {/* Article Body */}
-        <article className="lg:col-span-8 bg-white p-6 md:p-10 rounded-2xl md:rounded-[32px] shadow-xl border border-gray-100 font-sans">
+        <article className="bg-white p-6 md:p-10 rounded-2xl md:rounded-[32px] shadow-xl border border-gray-100 font-sans">
           <div className="prose prose-lg md:prose-xl text-gray-700 max-w-none prose-a:text-[#D47C42] prose-a:no-underline hover:prose-a:underline">
             {blog.content}
           </div>

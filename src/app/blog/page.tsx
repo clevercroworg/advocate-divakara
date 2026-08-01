@@ -49,9 +49,9 @@ export default function BlogArchivePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             {blogs.map((blog) => (
-              <div key={blog.slug} className="bg-[#f0dac5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
+              <div key={blog.slug} className="bg-[#f0dac5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300 min-w-0">
                 <span className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wider">{blog.category}</span>
-                <h2 className="font-bold text-xl text-legal-dark mb-4 font-sans leading-snug">{blog.title}</h2>
+                <h2 className="font-bold text-xl text-legal-dark mb-4 font-sans leading-snug break-words whitespace-normal">{blog.title}</h2>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
                   {blog.excerpt}
                 </p>

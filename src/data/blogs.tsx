@@ -3,6 +3,7 @@ import WhyBanksReject from './blog-content/why-banks-reject';
 import UnderstandingEncumbrance from './blog-content/understanding-encumbrance';
 import HusbandClaimMaintenance from './blog-content/husband-claim-maintenance';
 import FindTopCivilLawyer from './blog-content/qa-find-top-civil-lawyer-shivamogga';
+import RegisteredSaleDeed from './blog-content/importance-of-registered-sale-deed';
 
 export interface BlogPost {
   slug: string;
@@ -17,6 +18,17 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: 'importance-of-registered-sale-deed-property-law-shivamogga',
+    title: 'The Legal Importance of a Registered Sale Deed in Property Transactions',
+    shortTitle: 'Importance of Sale Deed',
+    category: 'Property Law',
+    description: 'Understand the legal importance of a Registered Sale Deed in Karnataka. Learn how title scrutiny, Khata, and Sub-Registrar norms in Shivamogga secure your property.',
+    excerpt: 'A Registered Sale Deed is the foundation of immovable property ownership. Discover why mere payment doesn\'t make you an owner and what clauses to watch out for.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <RegisteredSaleDeed />,
+  },
   {
     slug: 'qa-how-to-find-top-civil-lawyer-in-shivamogga-advocate',
     title: 'Q&A: How to Find the Top Civil Lawyer in Shivamogga',

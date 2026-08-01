@@ -1,8 +1,8 @@
 import Checklist from './blog-content/checklist';
 import WhyBanksReject from './blog-content/why-banks-reject';
 import UnderstandingEncumbrance from './blog-content/understanding-encumbrance';
-
 import HusbandClaimMaintenance from './blog-content/husband-claim-maintenance';
+import FindTopCivilLawyer from './blog-content/qa-find-top-civil-lawyer-shivamogga';
 
 export interface BlogPost {
   slug: string;
@@ -17,6 +17,17 @@ export interface BlogPost {
 }
 
 export const blogs: BlogPost[] = [
+  {
+    slug: 'qa-how-to-find-top-civil-lawyer-in-shivamogga-advocate',
+    title: 'Q&A: How to Find the Top Civil Lawyer in Shivamogga',
+    shortTitle: 'Find Top Civil Lawyer',
+    category: 'Legal Guide',
+    description: 'Learn how to find the best civil lawyer and advocate in Shivamogga for property disputes, LSR, and civil litigation based on local court experience.',
+    excerpt: 'Finding reliable legal representation in Shivamogga requires looking for specific professional qualities, such as extensive local court experience and deep knowledge of revenue documentation.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <FindTopCivilLawyer />,
+  },
   {
     slug: 'can-a-husband-claim-maintenance-from-wife-indian-law-best-legal-advocate-shimoga',
     title: 'Can a Husband Also Claim Maintenance from a Wife? – What Indian Law Says',

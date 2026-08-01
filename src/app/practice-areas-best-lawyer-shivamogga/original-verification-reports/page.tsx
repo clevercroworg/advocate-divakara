@@ -47,7 +47,7 @@ export default function OriginalVerificationReportsPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Need a Verification Report?</h3>
               <p className="mb-4 text-sm text-gray-600">Ensure your land records are legally sound and updated.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

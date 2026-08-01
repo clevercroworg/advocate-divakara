@@ -58,9 +58,9 @@ export default function WhyBanksReject() {
         <p className="text-gray-700 text-base mb-4">
           Don't wait for the bank to reject your property. Get a comprehensive Legal Scrutiny Report done independently by a senior advocate with 25+ years of experience in Shivamogga.
         </p>
-        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
+        <a href="tel:+919448628530" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
           Request a Legal Opinion
-        </Link>
+        </a>
       </div>
     </>
   );

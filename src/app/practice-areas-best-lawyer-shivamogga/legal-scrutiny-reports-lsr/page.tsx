@@ -51,7 +51,7 @@ export default function LSRPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Ready to request an LSR?</h3>
               <p className="mb-4 text-sm text-gray-600">Ensure your property transaction is risk-free with a comprehensive legal opinion.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

@@ -47,7 +47,7 @@ export default function CivilCourtPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Facing a Civil Dispute?</h3>
               <p className="mb-4 text-sm text-gray-600">Get expert legal representation in Shivamogga.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

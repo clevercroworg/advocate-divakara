@@ -135,7 +135,7 @@ export default function Checklist() {
               A legal scrutiny report is a comprehensive document prepared by a lawyer after cross-verifying all original property records with the sub-registrar and revenue offices. It serves as your ultimate green light or red flag before parting with your money. Furthermore, if you require a bank loan, financial institutions will strictly demand this report.
             </p>
             <p>
-              Ready to secure your investment? <Link href="/contact-best-lawyer-shivamogga" className="text-legal-accent font-bold underline decoration-2 underline-offset-2">Book a Legal Consultation</Link> to have your documents expertly reviewed.
+              Ready to secure your investment? <a href="tel:+919448628530" className="text-legal-accent font-bold underline decoration-2 underline-offset-2">Book a Legal Consultation</a> to have your documents expertly reviewed.
             </p>
 
             <h2 id="red-flags" className="text-3xl font-bold text-[#D47C42] mt-12 mb-6 font-cormorant border-b border-gray-200 pb-2">

@@ -47,7 +47,7 @@ export default function HomeLoanOpinionsPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Need a Legal Opinion for Your Loan?</h3>
               <p className="mb-4 text-sm text-gray-600">We work with individuals and institutions to expedite the lending process.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

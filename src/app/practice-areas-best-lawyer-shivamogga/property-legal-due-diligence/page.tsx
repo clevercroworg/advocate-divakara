@@ -47,7 +47,7 @@ export default function DueDiligencePage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Planning a Property Investment?</h3>
               <p className="mb-4 text-sm text-gray-600">Mitigate risks with our expert legal due diligence services.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

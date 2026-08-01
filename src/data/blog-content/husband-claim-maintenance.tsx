@@ -76,9 +76,9 @@ export default function HusbandClaimMaintenance() {
         <p className="mb-6 text-gray-700">
           Book a consultation with Advocate Divakara S.V. for expert guidance on family law, maintenance, and divorce proceedings in Shivamogga.
         </p>
-        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
+        <a href="tel:+919448628530" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
           Contact Us
-        </Link>
+        </a>
       </div>
     </>
   );

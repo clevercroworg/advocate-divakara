@@ -47,7 +47,7 @@ export default function TitleVerificationPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Secure Your Property Transaction</h3>
               <p className="mb-4 text-sm text-gray-600">Don't leave your investment to chance. Get a professional title verification today.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

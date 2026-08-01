@@ -47,7 +47,7 @@ export default function DocumentVettingPage() {
               <h3 className="text-xl font-bold text-legal-dark mb-2">Need a Document Reviewed?</h3>
               <p className="mb-4 text-sm text-gray-600">Don't sign until you are certain of the legal implications.</p>
               <Link href="/contact-best-lawyer-shivamogga" className="btn-primary">
-                Contact Advocate Divakara S.V.
+                Contact Advocate
               </Link>
             </div>
           </div>

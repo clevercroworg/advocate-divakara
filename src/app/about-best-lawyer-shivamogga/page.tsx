@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { ShieldCheck, Scale, FileText, CheckCircle, ChevronRight, Home } from 'lucide-react';
@@ -13,10 +12,10 @@ export const metadata: Metadata = generateSeoMetadata({
 
 export default function About() {
   return (
-    <div className="bg-[#F8F6F5] min-h-screen">
+    <div className="bg-[#f0dac5] min-h-screen">
       
       {/* Deep Navy Blue Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
@@ -49,7 +48,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Light Content Section */}
       <section className="max-w-5xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-16">
         
@@ -117,7 +115,6 @@ export default function About() {
         </div>
 
       </section>
-      <ImportantNotice />
 </div>
   );
 }

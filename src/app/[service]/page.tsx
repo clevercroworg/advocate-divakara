@@ -1,5 +1,4 @@
 import { seoKeywords, formatSlugToTitle } from "@/data/seoKeywords";
-import ImportantNotice from "@/components/ImportantNotice";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ShieldCheck, ArrowRight, CheckCircle, Scale, Phone, ChevronRight, Home } from "lucide-react";
@@ -45,10 +44,10 @@ export default async function ServicePage({ params }: Props) {
   const title = formatSlugToTitle(service);
 
   return (
-    <div className="bg-[#F8F6F5] min-h-screen">
+    <div className="bg-[#f0dac5] min-h-screen">
       
       {/* Deep Navy Blue Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
@@ -98,7 +97,6 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Light Content Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
@@ -143,7 +141,6 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 </div>
   );
 }

@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import ImportantNotice from "@/components/ImportantNotice";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import type { Metadata, ResolvingMetadata } from "next";
@@ -72,11 +71,11 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <div className="bg-[#F8F6F5] min-h-screen pb-16">
+    <div className="bg-[#f0dac5] min-h-screen pb-16">
       <JsonLd data={blogPostingJsonLd} />
 
       {/* Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 md:pt-16 pb-12 md:pb-16 px-5 relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 md:pt-16 pb-12 md:pb-16 px-5 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <nav className="flex items-center gap-2 text-sm text-gray-300 mb-6 font-sans">
@@ -104,7 +103,6 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Main Content Area */}
       <main className="max-w-7xl mx-auto px-5 mt-10 md:mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-20">
         

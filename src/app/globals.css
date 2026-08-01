@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-legal-bg: #E5D1C5;
-  --color-legal-accent: #7A2E36;
-  --color-legal-dark: #1F2937;
+  --color-legal-bg: #f0dac5;
+  --color-legal-accent: #50223c;
+  --color-legal-dark: #1c2340;
   --color-rose-gold: #D4B2A7;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-cormorant: var(--font-cormorant), ui-serif, Georgia, serif;

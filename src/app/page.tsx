@@ -71,8 +71,7 @@ export default function HomePage() {
             </div>
             <h1 className="text-hero text-legal-dark fade-up drop-shadow-sm w-full mt-4 md:mt-6 leading-tight relative pl-12 md:pl-16">
               <Award className="absolute left-0 top-1 md:top-2 w-10 h-10 md:w-14 md:h-14 text-[#D4AF37] fill-[#D4AF37]/20" />
-              Trusted Advocate & <br className="hidden md:block" /> 
-              <span className="text-legal-accent">Lawyer</span> in Shivamogga
+              Trusted Advocate & <span className="text-legal-accent">Lawyer</span> in Shivamogga
             </h1>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-3 mt-5 md:mt-8 fade-up w-full max-w-none lg:max-w-2xl">
               <span className="bg-legal-dark text-white text-xs sm:text-sm font-semibold px-2.5 sm:px-4 py-2 rounded-full flex items-center justify-center sm:justify-start gap-1.5 shadow-md text-center sm:text-left">
@@ -275,7 +274,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {blogs.slice(0, 3).map((blog) => (
-              <div key={blog.slug} className="bg-[#F8F6F5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
+              <div key={blog.slug} className="bg-[#f0dac5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
                 <h3 className="font-bold text-xl text-legal-dark mb-4 font-sans leading-snug">{blog.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-2">
                   {blog.excerpt}
@@ -288,7 +287,7 @@ export default function HomePage() {
           </div>
           
           <div className="text-center mt-12 md:mt-16">
-            <Link href="/blog" className="inline-flex px-8 py-3 rounded-lg font-bold bg-[#1B263B] text-white hover:bg-[#151d2d] transition-all shadow-md items-center justify-center">
+            <Link href="/blog" className="inline-flex px-8 py-3 rounded-lg font-bold bg-[#50223c] text-white hover:bg-[#3A182B] transition-all shadow-md items-center justify-center">
               View All Legal Articles
             </Link>
           </div>

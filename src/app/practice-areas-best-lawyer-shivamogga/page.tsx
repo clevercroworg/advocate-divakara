@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
@@ -96,10 +95,10 @@ export default function PracticeAreas() {
   ];
 
   return (
-    <div className="bg-[#F8F6F5] min-h-screen">
+    <div className="bg-[#f0dac5] min-h-screen">
       
       {/* Deep Navy Blue Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
@@ -130,14 +129,13 @@ export default function PracticeAreas() {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Light Content Section */}
       <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
             <Link href={service.link} key={index} className="bg-white p-8 rounded-[24px] shadow-lg shadow-black/5 hover:shadow-xl transition-all duration-300 border-t-4 border-legal-accent group flex flex-col h-full overflow-hidden break-words transform hover:-translate-y-1">
-              <div className="bg-[#F8F6F5] w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-legal-accent/10 transition-colors">
+              <div className="bg-[#f0dac5] w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-legal-accent/10 transition-colors">
                 {service.icon}
               </div>
               <h3 className="text-2xl font-bold font-cormorant text-legal-dark mb-3 group-hover:text-rose-gold transition-colors">{service.title}</h3>
@@ -162,7 +160,6 @@ export default function PracticeAreas() {
         </div>
 
       </section>
-      <ImportantNotice />
 </div>
   );
 }

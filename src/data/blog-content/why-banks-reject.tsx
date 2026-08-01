@@ -53,12 +53,12 @@ export default function WhyBanksReject() {
         <li className="flex items-start"><CheckCircle2 className="w-6 h-6 text-legal-accent mr-2 shrink-0 mt-1" /> <span><strong>Update Revenue Records:</strong> Ensure the Khata and RTC are mutated and reflect the current seller's name exactly as it appears on their Aadhaar/PAN.</span></li>
       </ul>
 
-      <div className="bg-[#F8F6F5] p-6 rounded-xl border border-gray-200 mt-10">
+      <div className="bg-[#f0dac5] p-6 rounded-xl border border-gray-200 mt-10">
         <h3 className="text-xl font-bold text-[#D47C42] font-cormorant mb-4">Secure Your Investment</h3>
         <p className="text-gray-700 text-base mb-4">
           Don't wait for the bank to reject your property. Get a comprehensive Legal Scrutiny Report done independently by a senior advocate with 25+ years of experience in Shivamogga.
         </p>
-        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#1B263B] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
+        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
           Request a Legal Opinion
         </Link>
       </div>

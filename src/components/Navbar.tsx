@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#1B263B] text-white shadow-xl shadow-black/10 sticky top-0 z-50 border-b border-[#2A3B5C]">
+    <nav className="bg-[#50223c] text-white shadow-xl shadow-black/10 sticky top-0 z-50 border-b border-[#2A3B5C]">
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
@@ -46,7 +46,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-[#1B263B] border-b border-[#2A3B5C] shadow-2xl absolute w-full left-0 top-20">
+        <div className="md:hidden bg-[#50223c] border-b border-[#2A3B5C] shadow-2xl absolute w-full left-0 top-20">
           <div className="px-4 pt-2 pb-6 space-y-2 flex flex-col">
             <Link onClick={toggleMenu} href="/" className="block px-4 py-3 text-base font-semibold text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">Home</Link>
             <Link onClick={toggleMenu} href="/about-best-lawyer-shivamogga" className="block px-4 py-3 text-base font-semibold text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">About</Link>

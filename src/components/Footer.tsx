@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1B263B] text-gray-100 py-16 md:py-20 lg:py-32 border-t-[8px] border-white/20">
+    <footer className="bg-[#50223c] text-gray-100 py-16 md:py-20 lg:py-32 border-t-[8px] border-white/20">
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
           <h3 className="text-2xl font-bold font-cormorant text-white mb-6">Advocate Divakara S.V.</h3>
@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider text-sm">Contact Information</h3>
+          <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider text-sm">Office Details</h3>
           <address className="not-italic text-sm text-gray-300 space-y-3">
             <p>A-5, Renuka Complex, 1st Floor,<br />Near Shaneshwara Temple,<br />3rd Cross, Durgigudi,<br />Shivamogga – Karnataka</p>
             <p className="pt-2 flex items-center gap-2">

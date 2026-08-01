@@ -24,7 +24,7 @@ export default function DisclaimerPopup() {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 sm:p-6">
       {/* Dark semi-transparent backdrop */}
       <div className="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
 
@@ -32,7 +32,7 @@ export default function DisclaimerPopup() {
       <div className="relative w-full max-w-3xl max-h-[90vh] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in zoom-in duration-300">
         
         {/* Header */}
-        <div className="bg-[#1B263B] text-white p-6 md:p-8 flex-shrink-0">
+        <div className="bg-[#50223c] text-white p-6 md:p-8 flex-shrink-0">
           <h2 className="text-2xl md:text-3xl font-bold font-cormorant tracking-wide text-center">
             LEGAL DISCLAIMER AND NOTICE
           </h2>
@@ -69,7 +69,7 @@ export default function DisclaimerPopup() {
         <div className="bg-gray-50 p-6 border-t border-gray-200 flex-shrink-0">
           <button
             onClick={handleAccept}
-            className="w-full bg-[#1B263B] hover:bg-[#151d2d] text-white font-bold py-4 px-6 rounded-lg transition-colors duration-200 uppercase tracking-widest text-sm shadow-md"
+            className="w-full bg-[#50223c] hover:bg-[#3A182B] text-white font-bold py-4 px-6 rounded-lg transition-colors duration-200 uppercase tracking-widest text-sm shadow-md"
           >
             I Acknowledge and Accept
           </button>

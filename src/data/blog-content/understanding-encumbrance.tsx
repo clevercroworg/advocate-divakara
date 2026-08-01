@@ -60,12 +60,12 @@ export default function UnderstandingEncumbrance() {
         Mutation is the process of updating or transferring the title of the property in the local revenue records from one person to another (usually after a sale, partition, or death of the owner). It is vital to ensure that after you purchase a property, the mutation is carried out so that the Khata or RTC reflects your name.
       </p>
 
-      <div className="bg-[#F8F6F5] p-6 rounded-xl border border-gray-200 mt-10">
+      <div className="bg-[#f0dac5] p-6 rounded-xl border border-gray-200 mt-10">
         <h3 className="text-xl font-bold text-[#D47C42] font-cormorant mb-4">Need Help Reading Your Records?</h3>
         <p className="text-gray-700 text-base mb-4">
           Revenue records in Karnataka can be complex and are often recorded in specialized Kannada administrative terminology. Ensure your documents are meticulously vetted by a legal expert.
         </p>
-        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#1B263B] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
+        <Link href="/contact-best-lawyer-shivamogga" className="inline-block px-6 py-3 bg-[#50223c] text-white font-bold rounded-md hover:bg-opacity-90 transition-colors">
           Contact Advocate Divakara S.V.
         </Link>
       </div>

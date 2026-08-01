@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ImportantNotice from "@/components/ImportantNotice";
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 import { blogs } from '@/data/blogs';
@@ -11,9 +10,9 @@ export const metadata: Metadata = {
 
 export default function BlogArchivePage() {
   return (
-    <div className="bg-[#F8F6F5] min-h-screen pb-16 md:pb-24">
+    <div className="bg-[#f0dac5] min-h-screen pb-16 md:pb-24">
       {/* Deep Navy Blue Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
@@ -44,14 +43,13 @@ export default function BlogArchivePage() {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Blog Grid Section */}
       <section className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20">
         <div className="bg-white rounded-[24px] md:rounded-[32px] p-6 md:p-12 shadow-xl shadow-black/5 border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             {blogs.map((blog) => (
-              <div key={blog.slug} className="bg-[#F8F6F5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
+              <div key={blog.slug} className="bg-[#f0dac5] rounded-[24px] p-8 shadow-sm border border-gray-200 flex flex-col hover:shadow-xl transition-shadow duration-300">
                 <span className="text-xs font-bold text-gray-500 mb-3 uppercase tracking-wider">{blog.category}</span>
                 <h2 className="font-bold text-xl text-legal-dark mb-4 font-sans leading-snug">{blog.title}</h2>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
@@ -66,7 +64,6 @@ export default function BlogArchivePage() {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 </div>
   );
 }

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import ImportantNotice from "@/components/ImportantNotice";
 import { generateSeoMetadata } from '@/utils/seo';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { MapPin, Phone, Mail, ChevronRight, Home } from "lucide-react";
@@ -12,10 +11,10 @@ export const metadata: Metadata = generateSeoMetadata({
 
 export default function Contact() {
   return (
-    <div className="bg-[#F8F6F5] min-h-screen">
+    <div className="bg-[#f0dac5] min-h-screen">
       
       {/* Deep Navy Blue Hero Section */}
-      <section className="bg-[#1B263B] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
+      <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
@@ -46,7 +45,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <ImportantNotice />
 {/* Light Content Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
         
@@ -56,7 +54,7 @@ export default function Contact() {
           {/* Contact Information (Left Side - Dark Theme) */}
           <div className="lg:w-1/2 bg-legal-dark text-white p-8 md:p-12 flex flex-col justify-center">
             <h2 className="text-2xl md:text-3xl font-bold font-cormorant text-white mb-8 border-b border-white/20 pb-4">
-              Office Information
+              Office Details
             </h2>
 
             <div className="space-y-8">
@@ -131,7 +129,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="fullName"
-                  className="w-full px-5 py-4 rounded-xl bg-[#F8F6F5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
+                  className="w-full px-5 py-4 rounded-xl bg-[#f0dac5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -140,7 +138,7 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-5 py-4 rounded-xl bg-[#F8F6F5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
+                  className="w-full px-5 py-4 rounded-xl bg-[#f0dac5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
                   placeholder="Enter your email"
                 />
               </div>
@@ -151,7 +149,7 @@ export default function Contact() {
               <input
                 type="tel"
                 id="phone"
-                className="w-full px-5 py-4 rounded-xl bg-[#F8F6F5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
+                className="w-full px-5 py-4 rounded-xl bg-[#f0dac5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark"
                 placeholder="Enter your phone number"
               />
             </div>
@@ -161,7 +159,7 @@ export default function Contact() {
               <textarea
                 id="message"
                 rows={5}
-                className="w-full px-5 py-4 rounded-xl bg-[#F8F6F5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark resize-none"
+                className="w-full px-5 py-4 rounded-xl bg-[#f0dac5] border border-gray-200 focus:outline-none focus:ring-2 focus:ring-legal-accent focus:border-transparent transition-all text-legal-dark resize-none"
                 placeholder="How can we help you?"
               ></textarea>
             </div>
@@ -177,7 +175,6 @@ export default function Contact() {
           </form>
         </div>
       </section>
-      <ImportantNotice />
 </div>
   );
 }

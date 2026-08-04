@@ -4,6 +4,7 @@ import UnderstandingEncumbrance from './blog-content/understanding-encumbrance';
 import HusbandClaimMaintenance from './blog-content/husband-claim-maintenance';
 import FindTopCivilLawyer from './blog-content/qa-find-top-civil-lawyer-shivamogga';
 import RegisteredSaleDeed from './blog-content/importance-of-registered-sale-deed';
+import QANavigatingLandPropertyDisputes from './blog-content/qa-navigating-land-property-disputes-shivamogga';
 
 export interface BlogPost {
   slug: string;
@@ -83,5 +84,16 @@ export const blogs: BlogPost[] = [
     author: 'Advocate Divakara S.V.',
     datePublished: new Date().toISOString().split('T')[0],
     content: <UnderstandingEncumbrance />,
+  },
+  {
+    slug: 'qa-navigating-land-property-disputes-shivamogga',
+    title: 'Q&A Guide: Navigating Land and Property Disputes in Shivamogga',
+    shortTitle: 'Navigating Land Disputes',
+    category: 'Legal Guide',
+    description: 'Learn about the primary causes of land and property disputes in Shivamogga, legal pathways for resolution, and how to prevent them through proper documentation.',
+    excerpt: 'Land conflicts typically stem from a breakdown in clear documentation, boundary mapping, or family consensus. Learn how to prevent and resolve them.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <QANavigatingLandPropertyDisputes />,
   },
 ];

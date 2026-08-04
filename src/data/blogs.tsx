@@ -5,6 +5,7 @@ import HusbandClaimMaintenance from './blog-content/husband-claim-maintenance';
 import FindTopCivilLawyer from './blog-content/qa-find-top-civil-lawyer-shivamogga';
 import RegisteredSaleDeed from './blog-content/importance-of-registered-sale-deed';
 import QANavigatingLandPropertyDisputes from './blog-content/qa-navigating-land-property-disputes-shivamogga';
+import ShimogaAdvocateContactNumber from './blog-content/shimoga-advocate-contact-number';
 
 export interface BlogPost {
   slug: string;
@@ -95,5 +96,16 @@ export const blogs: BlogPost[] = [
     author: 'Advocate Divakara S.V.',
     datePublished: new Date().toISOString().split('T')[0],
     content: <QANavigatingLandPropertyDisputes />,
+  },
+  {
+    slug: 'shimoga-advocate-contact-number',
+    title: 'Finding a Shimoga Advocate Contact Number: What to Know Before You Call',
+    shortTitle: 'Advocate Contact Guide',
+    category: 'Legal Guide',
+    description: 'Learn the proper ways to find and contact advocates in Shimoga, understanding Bar Council regulations and legal directories.',
+    excerpt: 'When searching online for an advocate contact number in Shimoga, there are specific professional protocols to know. Here\'s how to find verified legal contacts.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <ShimogaAdvocateContactNumber />,
   },
 ];

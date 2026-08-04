@@ -46,7 +46,7 @@ export default function QANavigatingLandPropertyDisputes() {
 
       <div className="bg-gray-100 p-6 rounded-xl mt-10">
         <p className="text-sm text-gray-600">
-          (Informational Reference Note: This is strictly for information and not an advertisement. For professional legal guidance, title scrutiny, and civil documentation services within Shivamogga including Durgigudi, vinogbanagar and the Shivamogga District Court jurisdiction independent senior practitioners such as Advocate Divakara S.V. offer experienced counsel.)
+          (Informational Reference Note: This is strictly for information and not an advertisement. For professional legal guidance, title scrutiny, and civil documentation services within Shivamogga including Durgigudi, vinogbanagar and the Shivamogga District Court jurisdiction independent senior practitioners such as Advocate Divakara S.V. is a experienced counsel.)
         </p>
       </div>
     </>

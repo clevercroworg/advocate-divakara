@@ -23,12 +23,12 @@ export async function generateMetadata(
   const resolvedParams = await params;
   const { service } = resolvedParams;
   if (!seoKeywords.includes(service)) return {};
-  
+
   const title = formatSlugToTitle(service);
-  
+
   return {
     title: `${title} | Advocate Divakara S.V.`,
-    description: `Looking for ${title}? Advocate Divakara S.V. offers expert legal services, property scrutiny, and document verification in Shivamogga.`,
+    description: `Looking for ${title}? Advocate Divakara S.V. expert legal services, property scrutiny, and document verification in Shivamogga.`,
   };
 }
 
@@ -45,11 +45,11 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <div className="bg-[#f0dac5] min-h-screen">
-      
+
       {/* Deep Navy Blue Hero Section */}
       <section className="bg-[#50223c] text-white pt-8 pb-16 md:pt-24 md:pb-32 rounded-b-[30px] md:rounded-b-[40px] shadow-lg relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
-        
+
         <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-8 relative z-10">
           <nav aria-label="Breadcrumb" className="flex items-center text-sm text-gray-300 mb-8 overflow-x-auto whitespace-nowrap pb-2">
             <ol className="flex items-center space-x-2">
@@ -84,7 +84,7 @@ export default async function ServicePage({ params }: Props) {
             <p className="text-base md:text-xl text-gray-300 leading-relaxed mb-8">
               Advocate Divakara S.V. brings over 25 years of specialized experience to provide you with reliable, highly professional legal solutions in Shivamogga.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-start md:justify-center gap-4">
               <a href="tel:+919448628530" className="w-full sm:w-auto px-8 py-3 rounded-lg font-bold bg-[#198754] text-white hover:bg-[#146c43] flex items-center justify-center gap-2 transition-all shadow-md">
                 <Phone className="w-4 h-4" />
@@ -97,12 +97,12 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
-{/* Light Content Section */}
+      {/* Light Content Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-20 pb-12 md:pb-20">
-        
+
         <div className="bg-white rounded-2xl p-6 md:p-12 shadow-xl border border-gray-100">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            
+
             {/* Left Col: Features */}
             <div>
               <h2 className="text-3xl font-bold text-legal-dark font-cormorant mb-6">
@@ -125,7 +125,7 @@ export default async function ServicePage({ params }: Props) {
                 ))}
               </ul>
             </div>
-            
+
             {/* Right Col: Consultation Card */}
             <div className="bg-gray-50 p-8 md:p-10 rounded-2xl border border-gray-200 text-center">
               <Scale className="w-12 h-12 text-legal-dark mb-6 mx-auto" />
@@ -141,6 +141,6 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
-</div>
+    </div>
   );
 }

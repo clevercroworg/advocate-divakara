@@ -6,6 +6,8 @@ import FindTopCivilLawyer from './blog-content/qa-find-top-civil-lawyer-shivamog
 import RegisteredSaleDeed from './blog-content/importance-of-registered-sale-deed';
 import QANavigatingLandPropertyDisputes from './blog-content/qa-navigating-land-property-disputes-shivamogga';
 import ShimogaAdvocateContactNumber from './blog-content/shimoga-advocate-contact-number';
+import QAImportanceRelinquishmentDeed from './blog-content/qa-importance-relinquishment-deed';
+import QAUnderstandingGiftDeeds from './blog-content/qa-understanding-gift-deeds';
 
 export interface BlogPost {
   slug: string;
@@ -107,5 +109,27 @@ export const blogs: BlogPost[] = [
     author: 'Advocate Divakara S.V.',
     datePublished: new Date().toISOString().split('T')[0],
     content: <ShimogaAdvocateContactNumber />,
+  },
+  {
+    slug: 'importance-of-relinquishment-deed-hakku-khulase-patra-shivamogga',
+    title: 'Importance of Relinquishment Deed (Hakku Khulase Patra) in Shivamogga',
+    shortTitle: 'Relinquishment Deed',
+    category: 'Property Law',
+    description: 'Learn about the importance of a Relinquishment Deed (Hakku Khulase Patra) in Karnataka, when it is needed, and why registration is compulsory.',
+    excerpt: 'A Relinquishment Deed, commonly known as Hakku Khulase Patra in Karnataka, is a legal document used when a person gives up their share in a joint property.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <QAImportanceRelinquishmentDeed />,
+  },
+  {
+    slug: 'understanding-gift-deeds-indian-law-property-transfer-shivamogga',
+    title: 'Understanding Gift Deeds and Their Importance Under Indian Law in Shivamogga',
+    shortTitle: 'Understanding Gift Deeds',
+    category: 'Property Law',
+    description: 'Learn about Gift Deeds, why they are important for property transfer under Indian law in Shivamogga, who can gift or accept, and the legal requirements.',
+    excerpt: 'A gift deed is an important legal document used when you want to transfer property to another person out of natural love and affection.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <QAUnderstandingGiftDeeds />,
   },
 ];

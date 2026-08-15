@@ -8,6 +8,7 @@ import QANavigatingLandPropertyDisputes from './blog-content/qa-navigating-land-
 import ShimogaAdvocateContactNumber from './blog-content/shimoga-advocate-contact-number';
 import QAImportanceRelinquishmentDeed from './blog-content/qa-importance-relinquishment-deed';
 import QAUnderstandingGiftDeeds from './blog-content/qa-understanding-gift-deeds';
+import Top10Lawyers from './blog-content/top-10-lawyers-shivamogga';
 
 export interface BlogPost {
   slug: string;
@@ -131,5 +132,16 @@ export const blogs: BlogPost[] = [
     author: 'Advocate Divakara S.V.',
     datePublished: new Date().toISOString().split('T')[0],
     content: <QAUnderstandingGiftDeeds />,
+  },
+  {
+    slug: 'top-10-lawyer-in-shivamogga-best-advocate-near-me',
+    title: 'Top 10 Lawyers in Shivamogga | Best Advocates Near Me',
+    shortTitle: 'Top 10 Lawyers in Shivamogga',
+    category: 'Legal Guide',
+    description: 'Find the top 10 best lawyers and advocates in Shivamogga based on search engine ratings. Discover the best legal experts near you for property, civil, and family matters.',
+    excerpt: 'Looking for the best lawyer near you in Shivamogga? We have compiled a list of the top 10 advocates based on search engine ratings and reviews to help you find reliable legal representation.',
+    author: 'Advocate Divakara S.V.',
+    datePublished: new Date().toISOString().split('T')[0],
+    content: <Top10Lawyers />,
   },
 ];

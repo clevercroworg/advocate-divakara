@@ -8,9 +8,11 @@ export default function QAUnderstandingGiftDeeds() {
       </div>
 
       <div className="w-full relative h-[300px] md:h-[400px] mb-8 rounded-xl overflow-hidden shadow-lg border border-gray-200">
-        <div className="w-full h-full bg-[#50223c] flex items-center justify-center text-white">
-          <span className="text-2xl md:text-4xl opacity-50 font-cormorant px-4 text-center">Understanding Gift Deeds in Shivamogga</span>
-        </div>
+        <img
+          src="/images/understanding-gift-deeds.png"
+          alt="Understanding Gift Deeds in Shivamogga"
+          className="w-full h-full object-cover"
+        />
       </div>
 
       <h2 className="text-3xl font-bold text-[#50223c] mt-12 mb-6 font-cormorant border-b border-gray-200 pb-2">

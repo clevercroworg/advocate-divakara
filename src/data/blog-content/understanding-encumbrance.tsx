@@ -8,6 +8,14 @@ export default function UnderstandingEncumbrance() {
         When dealing with real estate in Karnataka, the jargon can quickly become overwhelming. Terms like "EC," "Khata," and "RTC (Pahani)" are thrown around by builders, brokers, and bank officials. Understanding these Revenue Records is the key to a safe property purchase.
       </p>
 
+      <div className="w-full relative h-[300px] md:h-[400px] mb-8 rounded-xl overflow-hidden shadow-lg border border-gray-200 mt-8">
+        <img
+          src="/images/understanding-ec-revenue-records.png"
+          alt="Understanding Encumbrance Certificates (EC) and Revenue Records in Karnataka"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       <h2 className="text-3xl font-bold text-[#D47C42] mt-12 mb-6 font-cormorant border-b border-gray-200 pb-2">
         The Encumbrance Certificate (EC) Explained
       </h2>
